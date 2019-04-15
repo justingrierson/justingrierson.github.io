@@ -2,11 +2,11 @@
 layout: index
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+<!--Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.-->
 
-[Link to another page](./another-page.html).
+<!--[Link to another page](./another-page.html).-->
 
-There should be whitespace between paragraphs.
+<!--There should be whitespace between paragraphs.-->
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
@@ -104,9 +104,10 @@ end
 <img src="https://camo.githubusercontent.com/331400aee821efda2e36ee9b3bc8bce93b975109/68747470733a2f2f6779617a6f2e636f6d2f65623563353734316236613961313663363932313730613431613439633835382e706e67" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100" height="200" />
 
 
-
+```
 ### Definition lists can be used with HTML syntax.
-
+```
+```
 <dl>
 <dt>Name</dt>
 <dd>Godzilla</dd>
@@ -117,7 +118,7 @@ end
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
-
+```
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
