@@ -28,10 +28,6 @@ I wonder what’s next...
                 <th md-column md-numeric md-order-by="sodium.value" hide-gt-xs show-gt-md><span>Sodium (mg)</span></th>
                 <th md-column md-numeric md-order-by="calcium.value" hide-gt-xs show-gt-lg><span>Calcium (%)</span></th>
                 <th md-column md-numeric md-order-by="iron.value" hide-gt-xs show-gt-lg><span>Iron (%)</span></th>
-                <th md-column md-order-by="comment">
-                  <md-icon>comments</md-icon>
-                  <span>Comments</span>
-                </th>
               </tr>
             </thead>
             <tbody md-body>
@@ -49,9 +45,7 @@ I wonder what’s next...
                 <td md-cell hide-gt-xs show-gt-md>{{dessert.sodium.value}}</td>
                 <td md-cell hide-gt-xs show-gt-lg>{{dessert.calcium.value}}%</td>
                 <td md-cell hide-gt-xs show-gt-lg>{{dessert.iron.value}}%</td>
-                <td md-cell ng-click="editComment($event, dessert)" ng-class="{'md-placeholder': !dessert.comment}">
-                  {{dessert.comment || 'Add a comment'}}
-                </td>
+                
               </tr>
             </tbody>
           </table>
