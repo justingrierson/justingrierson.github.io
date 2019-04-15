@@ -12,7 +12,7 @@ I wonder what’s next...
 | zebra stripes | are neat      |    $1 |
 
 
-| Attribute      | Element    | Type           | Description |
+| Attribute                       | Element          | Type               | Description |
 | :------------------------------ | :---------------------------- | :------------------------------ | :------------------------- |
 | `mdDesc`       | `mdColumn` | `[expression]` | If present, the column will sort descending first. The default is to sort ascending first. |
 | `mdOnReorder`  | `mdHead`   | `function`     | A callback function for when the order changes. The callback will receive the new order. |
